@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    font-family: Helverica, Arial, sans-serif;
+    font-size: 18px
+}
+.cabecalho{
+ 	padding: 10px 0;
+    text-align: center;
+}
+.chamada {
+    background-color: #2283c9;
+    padding: 60px 15px;
+}
+h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+}
+.imoveis {
+    margin: auto;
+    max-width: 1100px;
+    text-align: center;
+}
+.imoveis article {
+    padding: 0 15px;
+ 	margin: 30px 5px; 
+}
+
+.imoveis article img {
+    max-width: 100%;
+}
+
+.imoveis article h2 {
+ 	margin: 25px 1px;   
+    color: #686868;
+    font-size: 20px;
+}
+
+button {
+    /*largura*/
+    width:  100%;
+
+    /*espacamentos*/
+    margin-bottom: 4px;
+
+    /*corrigindo comportamento padrao css*/
+    box-sizing: border-box;
+
+    /*preenchimento*/
+    padding: 8px 16px;
+    
+    /*bordas*/
+    border-radius: 4px;
+    border: 1px red solid;
+    background-color: #127d00;
+}
+
+.imoveis a {
+    background-color: #127d00;
+    color: #fff;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+
+@media (min-width: 600px) {
+    .chamada {
+        padding: 120px 15px;
+        font-size: 54px;
+    }
+
+    .chamada h1 {
+        font-size: 54px;
+    }
+
+    .imoveis article {
+        float: left;
+    }
+
+
+}
